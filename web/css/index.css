@@ -1,0 +1,44 @@
+ /* Style pour le conteneur central */
+        .center-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh; /* Cela assure que le conteneur occupe toute la hauteur de la fenêtre */
+            background-color: #f0f0f0; /* Couleur de fond */
+        }
+
+        /* Style pour le formulaire */
+        .form-container {
+            text-align: center;
+            max-width: 350px; /* Largeur légèrement plus grande */
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #fff; /* Couleur de fond du formulaire */
+        }
+
+        /* Style pour les champs de formulaire */
+        input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            box-sizing: border-box;
+        }
+
+        /* Style pour le bouton */
+        input[type="submit"] {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        /* Style pour le bouton au survol */
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }

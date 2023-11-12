@@ -1,0 +1,28 @@
+.info-container {
+    display: flex;
+    justify-content: space-between; /* Les div seront espacés de manière égale */
+    padding: 20px;
+}
+
+/* Style pour chaque div individuel */
+.info-box {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 30%; /* Largeur de chaque div */
+}
+.info-personne{
+    border: 1px solid #ccc;
+    margin-left: 25%;
+    width: 900px;
+}
+.info-personne h1{
+    text-align: center;
+}
+.info-personne h3{
+    margin-left: 5%;
+}
+ul{
+    padding: 10px;
+}
+

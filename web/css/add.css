@@ -1,0 +1,55 @@
+#map{
+    width: 50%;
+    height: 950px;
+}
+.gauche{
+    float: left;
+    height: 950px;
+    width: 50%;
+    font-size: 20px;
+}
+.droite{
+    float: right;
+}
+.gauche h2, .gauche h3, .gauche p {
+    margin: 10px; /* Marge autour de tous les titres et paragraphes */
+}
+
+/* Styles pour les balises p spécifiques à l'intérieur du div .gauche */
+.gauche p b {
+    font-weight: bold; /* Texte en gras dans les paragraphes */
+}
+.gauche a{
+   text-decoration-line : none;
+}
+.btn-add {
+    background: none;
+    border: none;
+    color: #007bff; /* Couleur du texte (bleu par défaut) */
+    font-size: 20px; /* Taille de l'icône */
+    cursor: pointer;
+}
+.form-group {
+        margin-bottom: 10px; /* Espacement entre les groupes de coordonnées */
+    }
+
+.form-group input {
+    width: 200px; /* Largeur des champs d'entrée */
+    padding: 10px;
+    margin-right: 10px; /* Espacement horizontal entre les champs d'entrée */
+}
+.ajouter{
+    padding: 10px;
+    margin-left: 302px;
+    margin-top: 10px;
+    background-color: royalblue;
+    color : white;
+    width: 120px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+}
+.ajouter:hover{
+    color: black;
+}
+
